@@ -1,8 +1,8 @@
 y#!/bin/sh
 
 echo "enter number"
-read 4
-y =`expr 4 % 3`
+read 3
+y =`expr 3 % 3`
 echo $y
 if [$y == 0]
  then

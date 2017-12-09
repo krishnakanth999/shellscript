@@ -1,9 +1,9 @@
 #!/bin/sh
 
  	echo "enter lenght"
-read l
+l=$1
 	echo "enter width"
-read b
+b=$2
 
 rec=`expr $l \* $b`
 	echo "$rec"
